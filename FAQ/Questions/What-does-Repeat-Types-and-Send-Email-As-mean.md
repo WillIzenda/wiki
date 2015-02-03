@@ -8,6 +8,7 @@ Repeat Types exist in the "Misc" section of ReportDesigner.aspx and are simply e
 
 ![Repeat Types & Send Email As](http://wiki.izenda.us/FAQ/FAQ/RepeatType_And_Link.png)
 
+Repeat types
 |Type|Effect|
 |-------------|-------------|
 |Every Day|Email will be sent daily. Time part (hours amd minutes) will be the same as the original time.|
@@ -16,10 +17,12 @@ Repeat Types exist in the "Misc" section of ReportDesigner.aspx and are simply e
 |Every Two Weeks|Email will be sent every 14 days.|
 |Every Month|Email will be sent monthly. Note that number of days in the month is taken into account, so it is not just "send every 30 days" or "send every 31 days" as it is for weeks schedule.|
 |Every Quarter|Email will be sent every 3 months.|
-|Alert Hourly|Email will be sent every hour. Minutes will remain the same.|
-|Alert Daily|Email will be sent daily. If report returned zero results under some conditions the Email will not be sent.|
 
-
+Alerts are conditional repeat types
+|Type|Effect|
+|-------------|-------------|
+|Alert Hourly|Email will be sent every hour so long as the Alert requirements defined on the Filters tab of the report are met. Minutes will remain the same. If the report would return zero results it will not be sent.|
+|Alert Daily|Email will be sent daily so long as the Alert requirements defined on the Filters tab of the report are met.. If report returned zero results under some conditions the Email will not be sent.|
 
 ###What is "Send Email As"?
 
