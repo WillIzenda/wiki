@@ -55,7 +55,7 @@ To use the Settings.aspx page:
 * Set the "Email From Address" field (e.g. admin@yourdomain.com).
 * Check the "Show Schedule Controls" check box
 * Enter in your SMTP relay server in the "Smtp Server" field (e.g. smtp.yourcompany.com).
-* Open a report you want to schedule in the report designer, click the “Misc” tab of the report. The scheduler controls will be towards the bottom of the page. Enter the email addresses separated by commas. Set the report type and the repeat frequency. You must set the repeat frequency in order to schedule the report.
+* Open a report you want to schedule in the report designer, click the “Misc” tab of the report. The scheduler controls will be towards the bottom of the page. Enter the email addresses separated by commas. Set the report type and the repeat frequency. You must set the repeat frequency in order to schedule the report [Repeat Types and Alerts](/FAQ/Questions/What-does-Repeat-Types-and-Send-Email-As-mean)
 * Save the report again.
 * The e-mail scheduler setup is now finished.
 
